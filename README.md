@@ -12,3 +12,7 @@ Parse .acts file generated with ACTS system.
   parser.LoadProject(filename);
   parser.:::
 ```
+
+## Convention of Extrinsic Parameters
+
+`T = [R|t]`, where `R` is the rotation and `t` is the translation (world frame with respect to camera frame)
